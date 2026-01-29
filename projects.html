@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jack Douglass - Projects</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Jack Douglass</h1>
+    <p>Machine Learning • Computer Vision • Software Engineering</p>
+    <nav>
+        <a href="index.html">About</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="resume.html">Resume</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>My Projects</h2>
+
+
+    <div class="carousel-container">
+            <button class="carousel-btn left"><i class="fa-solid fa-chevron-left"></i></button>
+            <ul class="carousel">
+                <li class="carousel-item active">
+                    <h3>Cellular Computational Network Research Project</h3>
+                    <p>Worked under Dr. Jake Lee at UNC Charlotte to create a neural network connectivity framework where individual networks
+                        dynamically exchange outputs as inputs during training to enhance learning efficiency. Researched and implemented optimal node grouping strategies to improve model
+                        performance and scalability. Useful in power forcasting.</p>
+                </li>
+                <li class="carousel-item">
+                    <h3>Video Summarization Research Project</h3>
+                    <p>Research project done under Dr. Das at UNC Charlotte. Helped grad student Arkaprava Sinha with tasks such as gathering baselines with different models, fixing issues 
+                        with datasets, and creating scripts to rank the importance of the frames in the video to be summarized.</p>
+                </li>
+                <li class="carousel-item">
+                    <h3>Gaussian Splatting Implementation Using Multi-View Stereo</h3>
+                    <p>In this group project from my Computer Vision class with Dr. Srijan Das, my group Used COLMAP to construct a point cloud from a multi-view stereo of a statue, then implemented 
+                        the Gaussian Splatting algorithm to reconstruct the three dimensional scene from the point cloud.</p>
+                </li>
+                <li class="carousel-item">
+                    <h3>Computer Vision Exercises</h3>
+                    <p>Projects done solo during my Computer Vision Class under Dr. Srijan Das at UNC Charlotte. Demonstrated novel Computer Vision techniques such as Canny Edge Detection, Hough Transforms, Harris Corner Detection, and SIFT Feature Matching in
+                        the early exercises, before moving on to Machine Learning based models such as Image Classification with Bag of SIFT Representation + SVM Classifer, and Convolutional Neural Networks.
+                    </p>
+                    <div class="links">
+                        <p><a href="https://github.com/JackDougl/Computer-Vision-Exercise-1">Exercise 1 Repository</a></p>
+                        <p><a href="https://github.com/JackDougl/Computer-Vision-Exercise-2">Exercise 2 Repository</a></p>
+                        <p><a href="https://github.com/JackDougl/Computer-Vision-Exercise-3">Exercise 3 Repository</a></p>
+                        <p><a href="https://github.com/JackDougl/Computer-Vision-Exercise-4">Exercise 4 Repository</a></p>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <h3>A* Algorithm Visualizer</h3>
+                    <p>This project was for Dr. Julio Bahamon's Intro to Artificial Intelligence class. An interactive Java application that shows squares on a grid, some of which are blocked off. The program will find the quickest route between 
+                        two clicked nodes using the A-Star algorithm, given that a path between the two exists.</p>
+                    <div class="links">
+                        <p><a href="https://github.com/JackDougl/AStar-Visualizer">Link to Repository</a></p>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <h3>Minimax Alphabeta Tic-Tac-Toe</h3>
+                    <p>This project was for Dr. Julio Bahamon's Intro to Artificial Intelligence class. In it, I built an unbeatable Tic-Tac-Toe AI using adversarial search techniques. The computer evaluates all possible game outcomes to make the optimal 
+                        move assuming both players play perfectly by exploring the game tree, and assigning scores to terminal states (win/loss/draw), (1/-1/0). There is an included option to prune branches that won't affect the final decision using Alpha-Beta 
+                        pruning (a standard optimization to minimax) to reduce search time.</p>
+                    <div class="links">
+                        <p><a href="https://github.com/JackDougl/Minimax-AlphaBeta-Tic-Tac-Toe">Link to Repository</a></p>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <h3>Dead Men Dont Dance</h3>
+                    <p>This was a group project as part of Dr. Julio Bahamon's Intro to Game Design class. It is a top-down shooting game mostly inspired by Hotline Miami, but with visual style of old noir movies, and a story of a cop invading one of 
+                        the mafia's speakeasies. The game includes enemy AI that responds to player actions, all programed by myself.
+                    </p>
+                    <div class="links">
+                        <p><a href="https://github.com/Agudi2/Team-Noir">Link to Repository</a></p>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <h3>AI Research Example Webpage</h3>
+                    <p>This project is an example webpage to show off my front-end software engineering abilities. On the webpage, there are carousels viewers, read-more buttons, accordian viewrs, and examples of asynchronous JS.</p>
+                    <div class="links">
+                        <p><a href="https://jackdougl.github.io/AI-Research-Example-Webpage/index.html">Link to Page</a></p>
+                        <p><a href="https://github.com/JackDougl/AI-Research-Example-Webpage">Link to Repository</a></p>
+                    </div>
+                </li>
+            </ul>
+            <button class="carousel-btn right"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="carousel-nav">
+                <div class="nav-item active"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
